@@ -15,7 +15,7 @@
 
 		<?php include_once 'meteo.php'; ?>
 
-		<div class="meteo">
+		<div class="meteo" data-source>
 			<span class="icon_meteo wi <?php echo $meteo->icon($meteo->temp[0]); ?>"></span>
 			<span class="temp"><?php echo $meteo->temp[1]; ?>&deg;</span>
 		</div>
