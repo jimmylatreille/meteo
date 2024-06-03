@@ -13,6 +13,11 @@ class Meteo {
 		$this->temp = explode(",", $geo->city.','.strtolower(preg_replace('/\s/', '', $match[0][0])));
 	}
 
+	/**
+	 * Commentaire
+	 * @param  $valeur $val [description]
+	 * @return [type]      [description]
+	 */
 	public function icon($val){
 
 		$val = strtolower($val);
